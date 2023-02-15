@@ -19,7 +19,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖  Portfolio-project <a name="Web_folio">My Portfolio Project</a>
+# 📖  Portfolio-project <a name=" Portfolio-project">My Portfolio Project</a>
 
 
 
@@ -78,8 +78,8 @@ Clone this repository to your desired folder:
 
 
 ```sh
-  cd web_folio
-  git clone 
+  cd Mydesktop_pro
+  git clone https://github.com/KAYEMBAJONATHAN/mydestop_pro
 ```
 
 ## 👥 Authors <a name="authors"></a>
