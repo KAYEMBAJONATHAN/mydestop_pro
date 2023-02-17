@@ -2,13 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  max-width: 100%;
 }
 
 body {
   max-width: 100%;
   min-height: 100vh;
-  font-family: "Poppins", sans-serif;
   background-color: #e5e5e5;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   line-height: 24px;
   color: #344563;
@@ -44,6 +45,7 @@ header {
 section {
   padding: 5rem 1.25rem 6rem;
   background-color: #fff;
+  margin-bottom: 20%;
 }
 
 .major-container {
@@ -169,17 +171,18 @@ a {
   border-radius: 16px;
   padding: 16px;
   background-color: #fff;
+  margin: 17px;
 }
 
 .project-container {
   display: grid;
-  gap: 24px;
+  margin-top: 85px;
 }
 
 .project-card:nth-of-type(2),
 .project-card:nth-of-type(3),
 .project-card:nth-of-type(4) {
-  margin-top: 85px;
+  margin-top: 1rem;
 }
 
 .project-meta {
@@ -187,6 +190,7 @@ a {
   width: 100%;
   gap: 12px;
   align-items: center;
+  display: flex;
 }
 
 p.bold {
@@ -219,6 +223,8 @@ ul {
 .project-skills {
   gap: 8px;
   margin: 12px 0;
+  justify-content: flex-start;
+  display: flex;
 }
 
 .project-skills li {
@@ -227,7 +233,6 @@ ul {
   background-color: #ebebff;
   font-size: 12px;
   color: #0018f5;
-  width: 30%;
 }
 
 button {
@@ -239,13 +244,13 @@ button {
   background-color: transparent;
   font-size: 17px;
   width: fit-content;
-  transition: all cubic-bezier(0.08, 0.82, 0.48, 1.27) 3s;
+  transition: all cubic-bezier(0.08, 0.82, 0.48, 1.27) 0.5s;
 }
 
 button:hover {
   border: none;
   color: #fff;
-  background: #2b2b2b;
+  background: #6070ff;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
 
@@ -277,6 +282,7 @@ ul.list-items.skill-items {
 }
 
 .lang-text {
+  display: flex;
   justify-content: space-between;
   font-size: 20px;
   align-items: center;
@@ -307,11 +313,14 @@ span {
 }
 
 .lang-list {
+  display: flex;
   align-items: center;
   padding: 24px;
   gap: 12px;
   background: #f7f7f9;
   border-radius: 8px;
+  margin: 15px;
+  margin-left: -2px;
 }
 
 .lang-div {
@@ -558,10 +567,6 @@ span {
     height: 0%;
     margin: 16px;
     color: #000;
-  }
-
-  .project-container {
-    gap: 0;
   }
 
   .project-section {
