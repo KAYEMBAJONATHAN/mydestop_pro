@@ -45,6 +45,7 @@ header {
 section {
   padding: 5rem 1.25rem 6rem;
   background-color: #fff;
+  margin-bottom: 20%;
 }
 
 .major-container {
@@ -170,6 +171,7 @@ a {
   border-radius: 16px;
   padding: 16px;
   background-color: #fff;
+  margin: 17px;
 }
 
 .project-container {
@@ -280,6 +282,7 @@ ul.list-items.skill-items {
 }
 
 .lang-text {
+  display: flex;
   justify-content: space-between;
   font-size: 20px;
   align-items: center;
@@ -310,11 +313,14 @@ span {
 }
 
 .lang-list {
+  display: flex;
   align-items: center;
   padding: 24px;
   gap: 12px;
   background: #f7f7f9;
   border-radius: 8px;
+  margin: 15px;
+  margin-left: -2px;
 }
 
 .lang-div {
