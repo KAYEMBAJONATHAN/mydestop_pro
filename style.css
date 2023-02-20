@@ -52,7 +52,7 @@ section {
   display: flex;
   flex-direction: column;
   border-bottom-left-radius: 80px;
-  background-image: url("./assets/hero_bg\ \(1\).png");
+  background-image: url("./assets/contact\ form\ background\ shapes.png");
   background-repeat: no-repeat;
   background-position: inherit;
   background-size: 100% 100%;
@@ -340,11 +340,13 @@ span {
   flex-direction: column;
   background-image: url("./assets/contact\ form\ background\ shapes.png");
   background-color: #fff;
+  background: #6070ff;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: inherit;
   padding-top: 100px;
   justify-content: center;
+  border-top-left-radius: 60px;
 }
 
 .contact-me h2 {
@@ -534,7 +536,7 @@ span {
   .major-container {
     display: flex;
     flex-direction: column;
-    background-image: url('./assets/Header\ bg\ \(1\).png');
+    background-image: url('./assets/');
     height: auto;
     background-repeat: no-repeat;
     background-size: cover;
@@ -645,13 +647,13 @@ span {
   .contact-card {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    background-image: url("./assets/contact\ form\ background\ shapes.png");
+    background-image: url("./assets/hero_bg\ \(1\).png");
     background-color: #6070ff;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: inherit;
-    border-top-left-radius: 80px;
+    padding-top: 100px;
+    justify-content: center;
   }
 
   .contact-me h2,
