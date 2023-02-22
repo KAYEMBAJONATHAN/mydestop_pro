@@ -108,6 +108,9 @@ Clone this repository to your desired folder:
 
 ## 🤝 Contributing <a name="contributing"></a>
 
+*GitHub: [@Kwaku28](https://github.com/Kwaku28)
+*GitHub: [@oluwatobi-fasasi](https://github.com/oluwatobi-fasasi)
+
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).

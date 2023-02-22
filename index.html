@@ -200,6 +200,7 @@
     </div>
   </section>
 
+
   <section id="about" class="about">
     <div class="about-container flex column">
       <div class="abt-me flex column">
@@ -289,6 +290,32 @@
         </ul>
       </div>
     </div>
+  </section>
+  <section class="contact-card">
+    <div class="contact-me">
+      <h2>Contact me</h2>
+
+      <p>
+        If you have an application you are interested in developing, a
+        features that you need built or a project that need coding. I'd love
+        to help with it.
+      </p>
+    </div>
+    <div class="contact-me-form">
+      <form class="form" action="https://formspree.io/f/xbjeoaeo" method="Post" id="form">
+        <label hidden for="name">Name</label>
+        <input type="text" name="name" class="input name-input" id="username" placeholder="name" maxlength="30"
+          required />
+        <label hidden id="mylabel" for="email">Email</label>
+        <input type="email" name="email" class="input mail-input" id="email" placeholder="enter email" size="64"
+          maxlength="64" required />
+        <label hidden id="message" for="message">Message</label>
+        <textarea name="message" class="input-textarea text-area" id="msg" cols="30" maxlength="500"
+          placeholder="messages" required></textarea>
+        <button type="submit" id="get-in-touch-button" class="submit-button" name="submit_button">Get In Touch</button>
+      </form>
+    </div>
+  </section>
   </section>
   </main>
 </body>
