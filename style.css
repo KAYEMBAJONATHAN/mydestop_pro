@@ -45,7 +45,8 @@ header {
 section {
   padding: 5rem 1.25rem 6rem;
   background-color: #fff;
-  margin-bottom: 20%;
+  margin: 0;
+  margin-bottom: 0;
 }
 
 .major-container {
@@ -338,15 +339,14 @@ span {
 .contact-card {
   display: flex;
   flex-direction: column;
-  background-image: url("./assets/contact\ form\ background\ shapes.png");
-  background-color: #fff;
   background: #6070ff;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 108% 85%;
   background-position: inherit;
   padding-top: 100px;
   justify-content: center;
   border-top-left-radius: 60px;
+  background-image: url("./assets/contact\ background\ \(1\).png");
 }
 
 .contact-me h2 {
