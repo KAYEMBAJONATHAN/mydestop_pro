@@ -299,15 +299,6 @@ ul.list-items.skill-items {
   font-weight: 500;
 }
 
-.section-head {
-  display: flex;
-  flex-direction: column;
-  gap: 1em;
-  width: 60%;
-  padding: 0.6em 0;
-  margin: 20px;
-}
-
 .lang-line {
   font-weight: 500;
   color: #5e6c84;
@@ -607,10 +598,10 @@ ul.list-items.skill-items {
 
   .project-container {
     display: grid;
-    margin-top: 85px;
     margin: 45px;
+    margin-top: 85px;
   }
-  
+
   .about-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
