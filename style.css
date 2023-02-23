@@ -171,7 +171,7 @@ a {
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   padding: 16px;
-  background-color: #fff;
+  background-color: #f8f8f8;
   margin: 17px;
 }
 
@@ -299,8 +299,13 @@ ul.list-items.skill-items {
   font-weight: 500;
 }
 
-span {
-  display: inline-block;
+.section-head {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  width: 60%;
+  padding: 0.6em 0;
+  margin: 20px;
 }
 
 .lang-line {
@@ -585,6 +590,7 @@ span {
     height: 100%;
     width: 100%;
     transition: transform cubic-bezier(0.55, 0.055, 0.675, 0.19) 0.5s;
+    border: 12px solid white;
   }
 
   .project-card img:hover {
@@ -599,9 +605,16 @@ span {
     order: 2;
   }
 
+  .project-container {
+    display: grid;
+    margin-top: 85px;
+    margin: 45px;
+  }
+  
   .about-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin: 23px;
   }
 
   .language {
