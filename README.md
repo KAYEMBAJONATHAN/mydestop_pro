@@ -47,6 +47,7 @@ HTML5 and CSS which are the latest versions were used in building this project.
 
 - **[key_feature_1]** Portfolio-project built with HTML and CSS.
 - **[key_feature_2]** Responsive mobile design portfolio.
+- **[ket_feature_3]** Responsive desktop design portfolio.
 
 
 - **feature_HOME-PAGE**

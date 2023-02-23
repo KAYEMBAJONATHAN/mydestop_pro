@@ -87,7 +87,7 @@ h2 {
   font-family: “Poppins”, sans-serif;
   font-weight: 700;
   font-size: 40px;
-  line-height: 52px;
+  line-height: 35px;
   display: flex;
   align-items: center;
   color: #172b4d;
@@ -536,7 +536,7 @@ span {
   .major-container {
     display: flex;
     flex-direction: column;
-    background-image: url('./assets/');
+    background-image: url('assets/Header\ bg\ \(1\).png');
     height: auto;
     background-repeat: no-repeat;
     background-size: cover;
@@ -567,7 +567,6 @@ span {
   a {
     padding-right: 10px;
     height: 0%;
-    margin: 16px;
     color: #000;
   }
 
@@ -647,7 +646,7 @@ span {
   .contact-card {
     display: flex;
     flex-direction: column;
-    background-image: url("./assets/hero_bg\ \(1\).png");
+    background-image: url("./assets/contact\ form\ background\ shapes.png");
     background-color: #6070ff;
     background-repeat: no-repeat;
     background-size: 100% 100%;
