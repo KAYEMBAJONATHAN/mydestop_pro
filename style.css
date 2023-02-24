@@ -44,12 +44,12 @@ header {
 
 section {
   padding: 5rem 1.25rem 6rem;
-  background-color: #fff;
+  background-color: #e5e5e5;
   margin: 0;
   margin-bottom: 0;
 }
 
-.major-container {
+.major-cbontainer {
   display: flex;
   flex-direction: column;
   border-bottom-left-radius: 80px;
@@ -87,7 +87,7 @@ h2 {
   font-family: “Poppins”, sans-serif;
   font-weight: 700;
   font-size: 40px;
-  line-height: 52px;
+  line-height: 35px;
   display: flex;
   align-items: center;
   color: #172b4d;
@@ -158,6 +158,7 @@ a {
 
 .first-section {
   border-bottom-left-radius: 80px;
+  background-color: #fff;
 }
 
 .project-section {
@@ -297,10 +298,6 @@ ul.list-items.skill-items {
   font-size: px;
   color: #253858;
   font-weight: 500;
-}
-
-span {
-  display: inline-block;
 }
 
 .lang-line {
@@ -536,7 +533,7 @@ span {
   .major-container {
     display: flex;
     flex-direction: column;
-    background-image: url('./assets/');
+    background-image: url('assets/Header\ bg\ \(1\).png');
     height: auto;
     background-repeat: no-repeat;
     background-size: cover;
@@ -552,6 +549,8 @@ span {
 
   .section-head h1 {
     width: 40%;
+    margin-top: 20%;
+    margin-bottom: 4%;
   }
 
   .section-head p {
@@ -567,7 +566,6 @@ span {
   a {
     padding-right: 10px;
     height: 0%;
-    margin: 16px;
     color: #000;
   }
 
@@ -584,8 +582,8 @@ span {
 
   .project-card img {
     height: 100%;
-    width: 100%;
     transition: transform cubic-bezier(0.55, 0.055, 0.675, 0.19) 0.5s;
+    border: 12px solid white;
   }
 
   .project-card img:hover {
@@ -600,9 +598,16 @@ span {
     order: 2;
   }
 
+  .project-container {
+    display: grid;
+    margin: 45px;
+    margin-top: 85px;
+  }
+
   .about-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin: 23px;
   }
 
   .language {
@@ -629,6 +634,7 @@ span {
   .about {
     padding-left: 60px;
     padding-right: 50px;
+    background: #fff;
   }
 
   section.contact-form {
@@ -647,7 +653,7 @@ span {
   .contact-card {
     display: flex;
     flex-direction: column;
-    background-image: url("./assets/hero_bg\ \(1\).png");
+    background-image: url("./assets/contact\ form\ background\ shapes.png");
     background-color: #6070ff;
     background-repeat: no-repeat;
     background-size: 100% 100%;
