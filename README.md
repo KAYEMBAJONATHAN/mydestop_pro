@@ -30,8 +30,7 @@ Portfolio-project is a mobile and desktop responsive page.
 
 ### Tech Stack <a name="tech-stack"></a>
 
-HTML5 and CSS which are the latest versions were used in building this project.
-
+HTML5,CSS and Javascript which are the latest versions were used in building this project.
 
 <details>
   <summary>Client</summary>
@@ -55,7 +54,7 @@ HTML5 and CSS which are the latest versions were used in building this project.
 ## 🚀 Live Demo <a name="Live Demo"></a>
 [Live Demo Link](https://kayembajonathan.github.io/mydestop_pro/)
 
-)
+
 
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -111,7 +110,7 @@ Clone this repository to your desired folder:
 
 *GitHub: [@Kwaku28](https://github.com/Kwaku28)
 *GitHub: [@oluwatobi-fasasi](https://github.com/oluwatobi-fasasi)
-
+*GitHub: [@sam2if](https://github.com/sam2if)
 
 
 Contributions, issues, and feature requests are welcome!
