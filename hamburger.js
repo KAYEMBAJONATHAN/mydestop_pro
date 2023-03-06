@@ -7,5 +7,11 @@ hamburger.addEventListener('click', () => {
   navnavMenu.classList.toggle('active')
 })
 
+document.querySelectorAll('navnav-link').forEach(n => 
+ n.addEventListener('click', () => {
+  hamburger.classList.remove('active');
+  hamburger.classList.remove('active')
+ }))
+
 
 
