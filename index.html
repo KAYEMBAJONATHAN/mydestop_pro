@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="popup.css">
   <title>Document</title>
 </head>
 
@@ -18,7 +19,7 @@
       <div class="desktop-tools">
         <nav class="content">
 
-          <ul class="desk-menu">
+          <ul class="navnav-menu">
             <li>
               <a href="#Portfolio" class="navnav-item" style="text-decoration: none;">Portfolio</a>
             </li>
@@ -30,7 +31,17 @@
             </li>
           </ul>
         </nav>
-
+        <ul class="desk-menu">
+          <li>
+              <a href="#Portfolio" class="navnav-item">Portfolio</a>
+          </li>
+          <li>
+              <a href="#About">About</a>
+          </li>
+          <li>
+              <a href="#Contact">Contact</a>
+          </li>
+      </ul>
         <div class="hamburger">
           <span class="barbar"></span>
           <span class="barbar"></span>
@@ -206,7 +217,6 @@
     </div>
   </section>
 
-
   <section id="about" class="about">
     <div class="about-container flex column">
       <div class="abt-me flex column">
@@ -276,7 +286,7 @@
           <li>
             <div class="lang">
               <p class="lang-text flex">
-                <span class="txt">Framework</span><span class="line">></span>
+                <span class="txt">Framework</span><span class="line"></span>
               </p>
             </div>
           </li>
@@ -286,7 +296,7 @@
           <li>
             <div class="lang">
               <p class="lang-text flex">
-                <span class="txt">Skills</span><span class="line">></span>
+                <span class="txt">Skills</span><span class="line"></span>
               </p>
             </div>
           </li>
@@ -323,6 +333,9 @@
     </div>
   </section>
   </main>
+
+  <script src="popup.js" defer></script>
+  <script src="hamburger.js" defer></script>
 </body>
 
 </html>

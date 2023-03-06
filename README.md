@@ -45,7 +45,7 @@ HTML5 and CSS which are the latest versions were used in building this project.
 
 ### Key Features <a name="key-features"></a>
 
-- **[key_feature_1]** Portfolio-project built with HTML and CSS.
+- **[key_feature_1]** Portfolio-project built with HTML CSS and javascript.
 - **[key_feature_2]** Responsive mobile design portfolio.
 - **[ket_feature_3]** Responsive desktop design portfolio.
 
@@ -111,6 +111,8 @@ Clone this repository to your desired folder:
 
 *GitHub: [@Kwaku28](https://github.com/Kwaku28)
 *GitHub: [@oluwatobi-fasasi](https://github.com/oluwatobi-fasasi)
+
+
 
 Contributions, issues, and feature requests are welcome!
 
