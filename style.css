@@ -295,7 +295,7 @@ ul.list-items.skill-items {
 }
 
 .skill-text {
-  font-size: px;
+  font-size: 10px;
   color: #253858;
   font-weight: 500;
 }
@@ -367,7 +367,7 @@ ul.list-items.skill-items {
   text-align: center;
   color: #ebebff;
   margin: 15px;
-  padding: 10;
+  padding: 10px;
 }
 
 .contact-me-form {
@@ -431,10 +431,6 @@ ul.list-items.skill-items {
   font-size: 2rem;
 }
 
-.navnav-link {
-  transform: 0.7s ease;
-}
-
 .navnav-link:hover {
   color: #142cff;
 }
@@ -446,11 +442,12 @@ ul.list-items.skill-items {
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #6070ff;
+  background: #f7f7f9;
 }
 
 .hamburger {
   display: block;
+  background: #00f;
 }
 
 .hamburger.active .barbar:nth-child(2) {
@@ -470,7 +467,7 @@ ul.list-items.skill-items {
 }
 
 .navnav-menu ul {
-  height: 69;
+  height: 69%;
 }
 
 .navnav-menu {
@@ -485,9 +482,9 @@ ul.list-items.skill-items {
   display: block;
   position: fixed;
   left: 0;
-  top: -1%;
+  top: 0;
   flex-direction: column;
-  background: #6070e0;
+  background: #6070ff;
   width: 100%;
   transition: 0.3s;
   height: 100%;
@@ -500,6 +497,8 @@ ul.list-items.skill-items {
   text-align: start;
   mix-blend-mode: multiply;
   backdrop-filter: blur(8px);
+  font-size: xx-large;
+  font-weight: 700;
 }
 
 @media screen and (min-width: 768px) {

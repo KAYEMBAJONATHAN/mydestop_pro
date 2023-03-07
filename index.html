@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="popup.css">
   <title>Document</title>
 </head>
 
@@ -18,19 +19,29 @@
       <div class="desktop-tools">
         <nav class="content">
 
-          <ul class="desk-menu">
+          <ul class="navnav-menu">
             <li>
               <a href="#Portfolio" class="navnav-item" style="text-decoration: none;">Portfolio</a>
             </li>
             <li>
-              <a href="#About" style="text-decoration: none;">About</a>
+              <a href="#About"  class="navnav-item" style="text-decoration: none;">About</a>
             </li>
             <li>
-              <a href="#Contact" style="text-decoration: none;">Contact</a>
+              <a href="#Contact"  class="navnav-item" style="text-decoration: none;">Contact</a>
             </li>
           </ul>
         </nav>
-
+        <ul class="desk-menu">
+          <li class="navnav-item">
+              <a href="#Portfolio" id="portfolio-link">Portfolio</a>
+          </li>
+          <li class="navnav-item">
+              <a href="#About"  id="about-link">About</a>
+          </li>
+          <li class="navnav-item">
+              <a href="#Contact" id="contact-link">Contact</a>
+          </li>
+      </ul>
         <div class="hamburger">
           <span class="barbar"></span>
           <span class="barbar"></span>
@@ -40,7 +51,7 @@
     </div>
   </header>
 
-  <section class="first-section">
+  <section class="first-section" >
     <div class="major-container">
       <div class="minor-container">
         <div class="section-head">
@@ -87,7 +98,7 @@
     </div>
   </section>
 
-  <section class="project-container">
+  <section class="project-container" id="Portfolio">
     <div class="project-card">
       <img src="./assets/Snapshoot Portfolio.png" alt="project card image" />
       <div class="prject-card-info flex column">
@@ -206,8 +217,7 @@
     </div>
   </section>
 
-
-  <section id="about" class="about">
+  <section id="About" class="about">
     <div class="about-container flex column">
       <div class="abt-me flex column">
         <h2 class="header-text">About <br>Myself</h2>
@@ -276,7 +286,7 @@
           <li>
             <div class="lang">
               <p class="lang-text flex">
-                <span class="txt">Framework</span><span class="line">></span>
+                <span class="txt">Framework</span><span class="line"></span>
               </p>
             </div>
           </li>
@@ -286,7 +296,7 @@
           <li>
             <div class="lang">
               <p class="lang-text flex">
-                <span class="txt">Skills</span><span class="line">></span>
+                <span class="txt">Skills</span><span class="line"></span>
               </p>
             </div>
           </li>
@@ -297,7 +307,7 @@
       </div>
     </div>
   </section>
-  <section class="contact-card">
+  <section class="contact-card" id="Contact">
     <div class="contact-me">
       <h2>Contact me</h2>
 
@@ -308,7 +318,7 @@
       </p>
     </div>
     <div class="contact-me-form">
-      <form class="form" action="https://formspree.io/f/xbjeoaeo" method="Post" id="form">
+      <form class="form" action="https://formspree.io/f/xbjeoaeo" method="post" id="form">
         <label hidden for="name">Name</label>
         <input type="text" name="name" class="input name-input" id="username" placeholder="name" maxlength="30"
           required />
@@ -323,6 +333,9 @@
     </div>
   </section>
   </main>
+
+  <script src="form.js" defer></script>
+  <script src="hamburger.js" defer></script>
 </body>
 
 </html>
