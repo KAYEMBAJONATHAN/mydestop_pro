@@ -442,11 +442,12 @@ ul.list-items.skill-items {
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #6070ff;
+  background: white;
 }
 
 .hamburger {
   display: block;
+  background: blue;
 }
 
 .hamburger.active .barbar:nth-child(2) {
@@ -479,11 +480,13 @@ ul.list-items.skill-items {
 
 .navnav-menu.active {
   display: block;
-  position: fixed;
+  position: absolute;
   left: 0;
-  top: -1%;
+  right: 0;
+  top: 0;
+  bottom: 0;
   flex-direction: column;
-  background: #6070e0;
+  background: #6070ff;
   width: 100%;
   transition: 0.3s;
   height: 100%;
@@ -496,6 +499,7 @@ ul.list-items.skill-items {
   text-align: start;
   mix-blend-mode: multiply;
   backdrop-filter: blur(8px);
+  font-size: xx-large;
 }
 
 @media screen and (min-width: 768px) {
