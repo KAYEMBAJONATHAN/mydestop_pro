@@ -442,12 +442,12 @@ ul.list-items.skill-items {
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background: white;
+  background: #f7f7f9;
 }
 
 .hamburger {
   display: block;
-  background: blue;
+  background: #00f;
 }
 
 .hamburger.active .barbar:nth-child(2) {
