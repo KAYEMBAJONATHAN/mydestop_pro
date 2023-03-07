@@ -480,11 +480,9 @@ ul.list-items.skill-items {
 
 .navnav-menu.active {
   display: block;
-  position: absolute;
+  position: fixed;
   left: 0;
-  right: 0;
   top: 0;
-  bottom: 0;
   flex-direction: column;
   background: #6070ff;
   width: 100%;
@@ -500,6 +498,7 @@ ul.list-items.skill-items {
   mix-blend-mode: multiply;
   backdrop-filter: blur(8px);
   font-size: xx-large;
+  font-weight: 700;
 }
 
 @media screen and (min-width: 768px) {

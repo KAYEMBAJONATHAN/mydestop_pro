@@ -9,10 +9,8 @@ hamburger.addEventListener('click', () => {
   navnavMenu.classList.toggle('active');
 });
 
-document.querySelectorAll('navnav-link').forEach((n) => n.addEventListener('click', () => {
+
+navnavMenu.addEventListener('click', ()=> {
   hamburger.classList.remove('active');
-  hamburger.classList.remove('active');
-  contactLink.classList.remove('active');
-  aboutLink.classList.remove('active');
-  portfolioLink.classList.remove('active');
-}));
+  navnavMenu.classList.remove('active');
+})
