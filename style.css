@@ -295,7 +295,7 @@ ul.list-items.skill-items {
 }
 
 .skill-text {
-  font-size: px;
+  font-size: 10px;
   color: #253858;
   font-weight: 500;
 }
@@ -367,7 +367,7 @@ ul.list-items.skill-items {
   text-align: center;
   color: #ebebff;
   margin: 15px;
-  padding: 10;
+  padding: 10px;
 }
 
 .contact-me-form {
@@ -431,10 +431,6 @@ ul.list-items.skill-items {
   font-size: 2rem;
 }
 
-.navnav-link {
-  transform: 0.7s ease;
-}
-
 .navnav-link:hover {
   color: #142cff;
 }
@@ -470,7 +466,7 @@ ul.list-items.skill-items {
 }
 
 .navnav-menu ul {
-  height: 69;
+  height: 69%;
 }
 
 .navnav-menu {
