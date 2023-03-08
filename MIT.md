@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2023 KAYEMBA JONATHAN
+Copyright (c) 2023 JONATHAN KAYEMBA
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
