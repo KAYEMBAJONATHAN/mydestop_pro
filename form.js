@@ -26,6 +26,7 @@ function checkUppercase(e) {
     erroMessagediv.appendChild(document.createElement('p')).innerHTML = errorMessage;
 
     erroMessagediv.style.display = 'flex';
+    submit.style.marginTop = '70px';
   }
 }
-form.addEventListener('submit', checkUppercase);
+form.addEventListener('submit', checkUppercase)
