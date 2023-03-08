@@ -18,7 +18,7 @@ function checkUppercase(e) {
     const paragraph = erroMessagediv.querySelector('p');
     erroMessagediv.removeChild(paragraph);
     erroMessagediv.getElementsByClassName.display = 'none';
-    submit.style.marginTop = '40px';
+    submit.style.marginTop = '40pxx';
   }
 
   if (!regex.test(email)) {
