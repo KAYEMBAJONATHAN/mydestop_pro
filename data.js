@@ -4,28 +4,20 @@ const textAreaBoxInput = document.getElementById('msg');
 const formStorage = document.getElementById('form');
 
 let userInfo = JSON.parse(localStorage.getItem('userInfo'));
-console.log(userInfo);
 
 if (userInfo !== null) {
-  if (userInfo.hasOwnProperty('username')) {
+  if (userInfo.hasOwnProperty.call('username')) {
     nameInput.value = userInfo.username;
   }
-  if (userInfo.hasOwnProperty('email')) {
+  if (userInfo.hasOwnProperty.call('email')) {
     emailInput.value = userInfo.email;
   }
-  if (userInfo.hasOwnProperty('msg')) {
+  if (userInfo.hasOwnProperty.call('msg')) {
     textAreaBoxInput.value = userInfo.msg;
   }
 } else {
   userInfo = {};
 }
-
-formStorage.addEventListener('change', () => {
-  populateStorage('username');
-  populateStorage('email');
-  populateStorage('message');
-  localStorage.setItem('userInfo', JSON.stringify(userInfo));
-});
 
 function populateStorage(infoType) {
   if (infoType === 'username') {
@@ -35,5 +27,10 @@ function populateStorage(infoType) {
   } else if (infoType === 'message') {
     userInfo.msg = textAreaBoxInput.value;
   }
-  console.log(userInfo);
 }
+formStorage.addEventListener('change', () => {
+  populateStorage('username');
+  populateStorage('email');
+  populateStorage('message');
+  localStorage.setItem('userInfo', JSON.stringify(userInfo));
+});
