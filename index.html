@@ -6,7 +6,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="popup.css">
   <title>Document</title>
 </head>
 
@@ -318,7 +317,7 @@
       </p>
     </div>
     <div class="contact-me-form">
-      <form class="form" action="https://formspree.io/f/xbjeoaeo" method="post" id="form">
+      <form class="form" action="https://formspree.io/f/xbjeoaeo" method="Post" id="form">
         <label hidden for="name">Name</label>
         <input type="text" name="name" class="input name-input" id="username" placeholder="name" maxlength="30"
           required />
@@ -328,14 +327,17 @@
         <label hidden id="message" for="message">Message</label>
         <textarea name="message" class="input-textarea text-area" id="msg" cols="30" maxlength="500"
           placeholder="messages" required></textarea>
+          <p class="msg" id="erroMessagediv"></p>
         <button type="submit" id="get-in-touch-button" class="submit-button" name="submit_button">Get In Touch</button>
       </form>
     </div>
   </section>
   </main>
 
-  <script src="form.js" defer></script>
+  
   <script src="hamburger.js" defer></script>
+  <script src="form.js" defer></script>
+  <script src="data.js" defer></script>
 </body>
 
 </html>
