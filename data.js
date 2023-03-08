@@ -34,4 +34,3 @@ formStorage.addEventListener('change', () => {
   populateStorage('message');
   localStorage.setItem('userInfo', JSON.stringify(userInfo));
 });
-
