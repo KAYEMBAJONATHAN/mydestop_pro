@@ -64,7 +64,7 @@ Clone this project to your local machine.
 
 To get a local copy up and running, follow these steps.
 
-
+Add javascrit to the project.
 
 ### Prerequisites
 Basic knownledge of computer.
