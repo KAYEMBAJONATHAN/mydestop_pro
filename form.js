@@ -29,4 +29,4 @@ function checkUppercase(e) {
     submit.style.marginTop = '70px';
   }
 }
-form.addEventListener('submit', checkUppercase)
+form.addEventListener('submit', checkUppercase);
