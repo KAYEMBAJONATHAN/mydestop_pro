@@ -20,13 +20,6 @@ if (userInfo !== null) {
   userInfo = {};
 }
 
-formStorage.addEventListener('change', () => {
-  populateStorage('username');
-  populateStorage('email'); 
-  populateStorage('message');
-  localStorage.setItem('userInfo', JSON.stringify(userInfo));
-});
-
 function populateStorage(infoType) {
   if (infoType === 'username') {
     userInfo.username = nameInput.value;
