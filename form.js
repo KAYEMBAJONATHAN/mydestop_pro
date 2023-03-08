@@ -2,8 +2,7 @@ const form = document.querySelector('.form');
 const submit = document.getElementById('get-in-touch-button');
 
 function checkUppercase(event) {
-
-
+ 
   if (email.toLowerCase() !== email) {
     const errorMessage = 'Please make sure that your emails do not contain any upper case caracters';
     erroMessagediv.appendChild(document.createElement('p')).innerHTML = errorMessage;
@@ -14,4 +13,3 @@ function checkUppercase(event) {
   }
   return true;
 }
-form.addEventListener('submit', checkUppercase);

@@ -20,14 +20,11 @@ if (userInfo !== null) {
   userInfo = {};
 }
 
-username.addEventListener('change', () => {
+formStorage.addEventListener('change', () => {
   populateStorage('username');
-});
-email.addEventListener('change', () => {
-  populateStorage('email');
-});
-textAreaBoxInput.addEventListener('change', () => {
+  populateStorage('email'); 
   populateStorage('message');
+  localStorage.setItem('userInfo', JSON.stringify(userInfo));
 });
 
 function populateStorage(infoType) {
@@ -38,7 +35,5 @@ function populateStorage(infoType) {
   } else if (infoType === 'message') {
     userInfo.msg = textAreaBoxInput.value;
   }
-
   console.log(userInfo);
-  localStorage.setItem('userInfo', JSON.stringify(userInfo));
 }
