@@ -110,7 +110,6 @@ Clone this repository to your desired folder:
 
 *GitHub: [@Kwaku28](https://github.com/Kwaku28)
 *GitHub: [@oluwatobi-fasasi](https://github.com/oluwatobi-fasasi)
-
 *GitHub:[@sam21f](https://github.com/sam2if)
 
 
