@@ -22,4 +22,4 @@ function checkUppercase(event) {
   }
   return true;
 }
-
+form.addEventListener('submit', checkUppercase);
