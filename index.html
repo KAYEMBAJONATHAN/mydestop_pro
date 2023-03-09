@@ -1,103 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Documents</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Document</title>
-</head>
+  <body>
+    <!-- Header-section starts here -->
+    <div class="hero-section">
+      <header>
 
-<body>
-  <header>
-    <div class="nav-container">
-      <div class="nav-logo">
-        <a style="text-decoration: none; color: blue;" href="#">My Logo</a>
-      </div>
-      <div class="desktop-tools">
-        <nav class="content">
-
-          <ul class="navnav-menu">
-            <li>
-              <a href="#Portfolio" class="navnav-item" style="text-decoration: none;">Portfolio</a>
-            </li>
-            <li>
-              <a href="#About"  class="navnav-item" style="text-decoration: none;">About</a>
-            </li>
-            <li>
-              <a href="#Contact"  class="navnav-item" style="text-decoration: none;">Contact</a>
-            </li>
-          </ul>
-        </nav>
-        <ul class="desk-menu">
-          <li class="navnav-item">
-              <a href="#Portfolio" id="portfolio-link">Portfolio</a>
-          </li>
-          <li class="navnav-item">
-              <a href="#About"  id="about-link">About</a>
-          </li>
-          <li class="navnav-item">
-              <a href="#Contact" id="contact-link">Contact</a>
-          </li>
-      </ul>
-        <div class="hamburger">
-          <span class="barbar"></span>
-          <span class="barbar"></span>
-          <span class="barbar"></span>
+        <!---------------dropdown-menu------------->
+        <div class='mobile-menu' id='mobile-menu'>
+              <div class="menu-x ">
+          <img src="./images/XIcon.svg" alt="close-menu"
+            onclick=closeMenu()  id="closeMenu"/>
         </div>
-      </div>
-    </div>
-  </header>
 
-  <section class="first-section" >
-    <div class="major-container">
-      <div class="minor-container">
-        <div class="section-head">
-          <h1>I'm Jonathan Glad to see you</h1>
-          <p>
-            I am a Software developer! I can help you build a product,
-            feature or website. Look through some of my works and
-            experience! if you like what you see and have a project you
-            need coded don't hesitate to contact me.
-          </p>
+        <ul class='drop-menu-list'>
+            <li><a href="#work" aria-label ="portfolio area" class='target'>Portfolio</a></li>
+            <li><a href="#about" aria-label ="about me area">About</a></li>
+            <li><a href="#contact" aria-label ="contact me area">Contact</a></li>
+          </ul>       
         </div>
-        <div class="self-container">
-          <p>Let's Connect</p>
-          <div class="list-nav">
-            <ul class="list-items">
+        <!---------------dropdown-menu------------->
+
+        <div class="container">
+          <nav class="navbar flex">
+            <div class="logo">
+              <a href="index.html"><h2>MOZO</h2></a>
+            </div>
+            
+            <div class='menu-list'>
+              <ul>
+                <li><a href="#work" aria-label ="portfolio area" > Portfolio</a></li>
+                <li><a href="#about" aria-label ="about me area" > About</a></li>
+                <li><a href="#contact" aria-label ="contact me area" > Contact</a></li>
+              </ul>
+            </div>
+
+
+            <div class="menu-bar">
+              <img src="./images/menu-bar.png" alt="menu" onclick=showMenu() id="menu"/>
+            </div>
+          </nav>
+        </div>
+      </header>
+    
+
+
+      <!-- Header-section Ends here -->
+      <!-- Home-page section Starts here -->
+      <main>
+        <section class="home-page container">
+          <div class="home-title">
+            <h1>
+              I’m Samuel <br />
+              Glad to see you!
+            </h1>
+            <p>
+              I’m a software developer! I can help you build a product , feature
+              or website Look through some of my work and experience! If you
+              like what you see and have a project you need coded, don’t
+              hesitate to contact me.
+            </p>
+            <a href="#" class="connect">LET'S CONNECT</a>
+
+            <ul class="social-icons">
               <li>
-                <a href="">
-                  <img src="./assets/Twitter icon.svg" alt="my social handle images" />
+                <a href="twitter.com/" target="_blank">
+                  <img src="./images/twitter.svg" alt="twitter" />
                 </a>
               </li>
+
               <li>
-                <a href="">
-                  <img src="./assets/Linkedin icon.svg" alt="my social handle images" />
+                <a href="linkedin.com" target="_blank">
+                  <img src="./images/linkedIn.svg" alt="linkedin"
+                /></a>
+              </li>
+
+              <li>
+                <a href="medium.com" target="_blank">
+                  <img src="./images/medium.svg" alt="medium" />
                 </a>
               </li>
+
               <li>
-                <a href="">
-                  <img src="./assets/Medium icon.svg" alt="my social handle images" />
+                <a href="github.com" target="_blank">
+                  <img src="./images/github.svg" alt="github" />
                 </a>
               </li>
+
               <li>
-                <a href="">
-                  <img src="./assets/Github icon.svg" alt="my social handle images" />
-                </a>
-              </li>
-              <li>
-                <a href=""><img src="./assets/Angelist icon.svg" alt="my social handle images" />
+                <a href="angel.com" target="_blank">
+                  <img src="./images/angel.svg" alt="angel" />
                 </a>
               </li>
             </ul>
           </div>
-        </div>
-      </div>
-    </div>
-  </section>
+        </section>
+         </div>
 
-   <section id="work">
+        <!-- Home-page section Ends here -->
+
+        <!-- Work-section Starts here -->
+
+        <section id="work">
           <div class="grid-container">
             
             
@@ -113,129 +124,156 @@
            </div>
            
              <!-- <------------ Pop-up-section End------------->
+              
 
-  <section id="About" class="about">
-    <div class="about-container flex column">
-      <div class="abt-me flex column">
-        <h2 class="header-text">About <br>Myself</h2>
-        <p class="para-text">
-          Hello I’m a software developer! I can help you build a product ,
-          feature or website Look through some of my work and experience! If
-          you like what you see and have a project you need coded, don’t
-          hestiate to contact me.
-        </p>
-        <div class="self-container">
-          <p>Let's Connect</p>
-          <div class="list-nav">
-            <ul class="list-items skill-items">
+        </section>
+
+        <!-- Work-section Ends here -->
+
+        <!-- About-section Starts here -->
+        <section id="about">
+          <div class="about-title container">
+            <div class="row">
+              <div class="left">
+             
+            <h2>
+              About <br />
+              Myself
+            </h2>
+            <p>
+              Hello I’m a software developer! I can help you build a product ,
+              feature or website Look through some of my work and experience! If
+              you like what you see and have a project you need coded, don’t
+              hestiate to contact me.
+            </p>
+            <a href="#" class="connect">LET'S CONNECT</a>
+
+            <ul class="social-icons">
               <li>
-                <a href="">
-                  <img src="./assets/Twitter icon.svg" alt="my social handle images" />
+                <a href="twitter.com/" target="_blank">
+                  <img src="./images/twitter.svg" alt="twitter" />
                 </a>
               </li>
+
               <li>
-                <a href="">
-                  <img src="./assets/Linkedin icon.svg" alt="my social handle images" />
+                <a href="linkedin.com" target="_blank">
+                  <img src="./images/linkedIn.svg" alt="linkedin"
+                /></a>
+              </li>
+
+              <li>
+                <a href="medium.com" target="_blank">
+                  <img src="./images/medium.svg" alt="medium" />
                 </a>
               </li>
+
               <li>
-                <a href="">
-                  <img src="./assets/Medium icon.svg" alt="my social handle images" />
+                <a href="github.com" target="_blank">
+                  <img src="./images/github.svg" alt="github" />
                 </a>
               </li>
+
               <li>
-                <a href="">
-                  <img src="./assets/Github icon.svg" alt="my social handle images" />
-                </a>
-              </li>
-              <li>
-                <a href=""><img src="./assets/Angelist icon.svg" alt="my social handle images" />
+                <a href="angel.com" target="_blank">
+                  <img src="./images/angel.svg" alt="angel" />
                 </a>
               </li>
             </ul>
-          </div>
-        </div>
-        <button type="button">Get my Resume</button>
-      </div>
-      <div class="language flex column">
-        <ul>
-          <li>
-            <div class="lang flex column">
-              <p class="lang-text flex">
-                <span class="txt">Language</span><span class="lang-line">></span>
-              </p>
-              <ul class="lang-div flex column">
-                <li class="lang-list flex">
-                  <img src="./assets/javascript circle.svg" alt="js logo" />
-                  <p class="skill-text">JavaScript</p>
+            <div>
+              <button type="button" class="primary-btn">Get my resume</button>
+            </div>
+            </div>
+
+            <div class="right">
+
+            <div class="languages-section">
+              <ul class="languages-title">
+                <li>
+                  <h3>Languages</h3>
+                  <a href="#"
+                    ><img src="./images/Arrow-down.svg" alt="arrow-down"
+                  /></a>
                 </li>
-                <li class="lang-list flex">
-                  <img src="./assets/html circle.svg" alt="html logo" />
-                  <p class="skill-text">HTML</p>
+              </ul>
+
+              <div class="box">
+              <ul class="languages-box">
+                <li>
+                  <img src="./images/js-icon.svg" alt="js" />
+                  <a href="#"><p>Javascript</p></a>
                 </li>
-                <li class="lang-list flex">
-                  <img src="./assets/css circle.svg" alt="css logo" />
-                  <p class="skill-text">CSS</p>
+              </ul>
+
+              <ul class="languages-box">
+                <li>
+                  <img src="./images/html-icon.svg" alt="html" />
+                  <a href="#"><p>HTML</p></a>
+                </li>
+              </ul>
+
+              <ul class="languages-box">
+                <li>
+                  <img src="./images/css-icon.svg" alt="css" />
+                  <a href="#"><p>CSS</p></a>
+                </li>
+              </ul>
+              </div>
+
+              <ul class="languages-title">
+                <li class="bottom-line">
+                  <h3>Frameworks</h3>
+                  <a href="#"
+                    ><img src="./images/arrow-side.svg" alt="arrow-side"
+                  /></a>
+                </li>
+              </ul>
+
+              <ul class="languages-title">
+                <li class="bottom-line">
+                  <h3>Skills</h3>
+                  <a href="#"
+                    ><img src="./images/arrow-side.svg" alt="arrow-side"
+                  /></a>
                 </li>
               </ul>
             </div>
-          </li>
-          <li>
-            <div class="lang">
-              <p class="lang-text flex">
-                <span class="txt">Framework</span><span class="line"></span>
-              </p>
-            </div>
-          </li>
-          <div class="frame-line">
-            <hr />
           </div>
-          <li>
-            <div class="lang">
-              <p class="lang-text flex">
-                <span class="txt">Skills</span><span class="line"></span>
-              </p>
-            </div>
-          </li>
-          <div class="frame-line">
-            <hr />
           </div>
-        </ul>
-      </div>
-    </div>
-  </section>
-  <section class="contact-card" id="Contact">
-    <div class="contact-me">
-      <h2>Contact me</h2>
+           </div>
+        </section>
+        <!-- About-section Ends here -->
 
-      <p>
-        If you have an application you are interested in developing, a
-        features that you need built or a project that need coding. I'd love
-        to help with it.
-      </p>
-    </div>
-    <div class="contact-me-form">
-      <form class="form" action="https://formspree.io/f/xbjeoaeo" method="Post" id="form" >
-        <label hidden for="name">Name</label>
-        <input type="text" name="name" class="input name-input" id="username" placeholder="name" maxlength="30"
-          required />
-        <label hidden id="mylabel" for="email">Email</label>
-        <input type="email" name="email" class="input mail-input" id="email" placeholder="enter email" size="64"
-          maxlength="64" required />
-        <label hidden id="message" for="message">Message</label>
-        <textarea  name="message" class="input-textarea text-area" id="msg" cols="30" maxlength="500"
-          placeholder="messages" required></textarea>
-          <p class="msg" id="erroMessagediv"></p>
+         <!-- Contact-section Starts here -->
 
-        <button type="submit" id="get-in-touch-button" class="submit-button" name="submit_button">Get In Touch</button>
-      </form>
-    </div>
-  </section>
-  </main>
+         <section>
+          <div id='contact'>
+          <div class='contact-details container'>
+            <h2>Contact me</h2>
+            <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
+            
+            <form id='form' action="https://formspree.io/f/xaykozra" method="post" >
+              <ul class="input-form">
+              
+              <li>
+                <input type="text" name="namearea" class="contact-form-input" placeholder="Enter Your name" maxlength="30" id='name' required>        
+              </li>
+              
+              <li>
+                  <input type="email" name="emailarea" class="contact-form-input" placeholder="Email Address" id="email" required>
+                  <span class='error'></span>
+                </li>
+                <li>
+                    <textarea class="contact-form-input"  name= "messagearea" cols="30" rows="10" placeholder="Write your message here"  maxlength="500" id='message'  required></textarea >               
+                  </li>
+              </ul>
+    
+              <button type="submit" name="submitarea" class="primary-btn" id="abt-btn">Get in Touch</button>                 
+            </form>
+          </div>
 
-
-  <script src="popup.js"></script>
-  <script src="popup.css"></script>
- 
-</body>
+          </div>
+         </section>
+      </main>
+       <script src="popup.js"></script>
+  </body>
 </html>
