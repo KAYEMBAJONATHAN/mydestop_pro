@@ -18,22 +18,8 @@ const portfolioData = [
   {
     title: 'Tonic',
     workDetails: ['CANOPY', 'Back End Dev', '2015'],
-    image: './images/pop-img1.png',
-    description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    details:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    details2:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-
-    workTools: ['html', 'css', 'javaScript', 'github', 'Ruby', 'Bootstrap'],
-  },
-
-  {
-    title: 'Tonic',
-    workDetails: ['CANOPY', 'Back End Dev', '2015'],
-    image: './images/Portfolio 1.png',
-    image2: './images/dsk Portfolio1.png',
+    image: './images/Portfolio1.png',
+    image2: './images/dskPortfolio1.png',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     details:
@@ -44,8 +30,8 @@ const portfolioData = [
   {
     title: 'Multi-Post<br /> Stories',
     workDetails: ['CANOPY', 'Back End Dev', '2015'],
-    image: './images/Portfolio 2.png',
-    image2: './images/dsk Portfolio2.png',
+    image: './images/Portfolio2.png',
+    image2: './images/dskPortfolio2.png',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     details:
@@ -56,8 +42,8 @@ const portfolioData = [
   {
     title: 'Multi-Post<br /> Stories',
     workDetails: ['CANOPY', 'Back End Dev', '2015'],
-    image: './images/Portfolio 3.png',
-    image2: './images/dsk Portfolio3.png',
+    image: './images/Portfolio3.png',
+    image2: './images/dskPortfolio3.png',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     details:
@@ -68,241 +54,75 @@ const portfolioData = [
   {
     title: 'Multi-Post<br /> Stories',
     workDetails: ['CANOPY', 'Back End Dev', '2015'],
-    image: './images/Portfolio 4.png',
-    image2: '../images/dsk Portfolio.png',
+    image: './images/Portfolio4.png',
+    image2: '../images/dskPortfolio.png',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     details:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     workTools: ['html', 'css', 'javaScript', 'github', 'Ruby', 'Bootstrap'],
-  },
-
-  {
-    title: 'Multi-Post Stories',
-    workDetails: ['FACEBOOK', 'Back End Dev', '2015'],
-    image: './images/Portfolio 2.png',
-    description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    details:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    workTools: ['html', 'css', 'javaScript', 'github', 'Ruby', 'Bootstrap'],
-  },
-  {
-    title: 'Facebook 360',
-    workDetails: ['FACEBOOK', 'Back End Dev', '2015'],
-    image: './images/Portfolio 3.png',
-    description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    details:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    workTools: ['html', 'css', 'javaScript', 'github', 'Ruby', 'Bootstrap'],
-  },
-  {
-    title: 'Uber Navigation',
-    workDetails: ['FACEBOOK', 'Back End Dev', '2015'],
-    image: './images/Portfolio 4.png',
-    description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    details:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    details2:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-
-    workTools: ['html', 'css', 'javaScript', 'github', 'Ruby', 'Bootstrap'],
-
-    liveIcon: './images/live-Icon.svg',
-    liveLink: 'https://kayembajonathan.github.io/mydestop_pro/',
-
-    sourceLink: 'https://kayembajonathan.github.io/mydestop_pro/',
-    sourceIcon: './images/bluegithub.svg',
   },
 ];
 
 // ------------------------- Projects section --------------------//
 
 const project = document.querySelector('.grid-container');
-project.innerHTML = `<div class="card">
-              <div class="row">
-                <div class="col-1 work-1">
-                <a href="#"
-                  ><img src="${portfolioData[1].image}" class="mobile-only" alt="portfolio-1"
-                /></a>
-  
-                   <a href="#"
-                  ><img src="${portfolioData[1].image2}" class="desktop-only" alt="portfolio-1"
-                /></a>
-                
-                </div>
+portfolioData.forEach((cardData, index) => {
+  project.innerHTML += `<div class="card">
+  <div class="row">
+    <div class="col-1 work-1">
+    <a href="#"
+      ><img src="${cardData.image}" class="mobile-only" alt="portfolio-1"
+    /></a>
 
-                <div class="col-2">
-                <a href="#"><h2>${portfolioData[0].title}</h2></a>
-                <div class="work-details flex2">
-                  <a href="#"><h3>${portfolioData[0].workDetails[0]}</h3></a>
-                  <div class="bullet-point"></div>
-                  <a href=""><h4>${portfolioData[0].workDetails[1]}</h4></a>
-                  <div class="bullet-point"></div>
-                  <a href=""><h4>${portfolioData[0].workDetails[2]}</h4></a>
-                </div>
-                <p>
-                  ${portfolioData[0].description}
-                </p>
-                <ul>
-                  <li class="work-tools">
-                    <button type="button" class="tools">${portfolioData[0].workTools[0]}</button>
-                    <button type="button" class="tools">${portfolioData[0].workTools[1]}</button>
-                    <button type="button" class="tools">${portfolioData[0].workTools[2]}</button>
-                  </li>
-                </ul>
-                <div>
-                  <button type="button" class="primary-btn">See Project</button>
-                </div>
-              </div>
-              </div>
-            </div>
-            
-            <!-- portfolio - 2 -->
-            <div class="card">
-              <div class="row reverse">
-                <div class="col-1">
-                <a href="#"
-                  ><img src="${portfolioData[2].image}" class="mobile-only" alt="portfolio-2"
-                /></a>
+       <a href="#"
+      ><img src="${cardData.image2}" class="desktop-only" alt="portfolio-1"
+    /></a>
+    
+    </div>
 
-                     <a href="#"
-                  ><img src="${portfolioData[2].image2}" class="desktop-only" alt="portfolio-2"
-                /></a>
-
-                </div>
-
-                <div class="col-2">
-                <a href="#"
-                  ><h2>${portfolioData[2].title}</h2></a>
-
-                  
-                <div class="work-details flex2">
-                  <a href="#"><h3>${portfolioData[0].workDetails[0]}</h3></a>
-                  <div class="bullet-point"></div>
-                  <a href=""><h4>${portfolioData[0].workDetails[1]}</h4></a>
-                  <div class="bullet-point"></div>
-                  <a href=""><h4>${portfolioData[0].workDetails[2]}</h4></a>
-                </div>
-                <p>
-                  ${portfolioData[0].description}
-                </p>
-                <ul>
-                  <li class="work-tools">
-                    <button type="button" class="tools">${portfolioData[0].workTools[0]}</button>
-                    <button type="button" class="tools">${portfolioData[0].workTools[1]}</button>
-                    <button type="button" class="tools">${portfolioData[0].workTools[2]}</button>
-                  </li>
-                </ul>
-                <div>
-                  <button type="button" class="primary-btn">See Project</button>
-                </div>
-              </div>
-              </div>
-                </div>
-
-
-                 <!-- portfolio - 3 -->
-            <div class="card selected-card">
-              <div class="row">
-                <div class="col-1">
-                <a href="#"
-                  ><img src="${portfolioData[3].image}" class="mobile-only" alt="portfolio-3"
-                /></a>
-
-                    <a href="#"
-                  ><img src="${portfolioData[3].image2}" class="desktop-only" alt="portfolio-3"
-                /></a>
-
-
-                </div>
-
-                <div class="col-2" >
-                <a href="#"><h2>${portfolioData[0].title}</h2></a>
-                <div class="work-details flex2">
-                  <a href="#"><h3>${portfolioData[0].workDetails[0]}</h3></a>
-                  <div class="bullet-point"></div>
-                  <a href=""><h4>${portfolioData[0].workDetails[1]}</h4></a>
-                  <div class="bullet-point"></div>
-                  <a href=""><h4>${portfolioData[0].workDetails[2]}</h4></a>
-                </div>
-                <p>
-                  ${portfolioData[0].description}
-                </p>
-                <ul>
-                  <li class="work-tools">
-                    <button type="button" class="tools">${portfolioData[0].workTools[0]}</button>
-                    <button type="button" class="tools">${portfolioData[0].workTools[1]}</button>
-                    <button type="button" class="tools">${portfolioData[0].workTools[2]}</button>
-                  </li>
-                </ul>
-                <div>
-                  <button type="button"class='primary-btn active'>See Project</button>
-                </div>
-              </div>
-              </div>
-            </div>
-
-            <!-- portfolio - 4 -->
-            <div class="card">
-              <div class="row reverse">
-                <div class="col-1">
-                <a href="#"
-                  ><img src="${portfolioData[4].image}" class="mobile-only" alt="portfolio-4"
-                /></a>
-
-                    <a href="#"
-                  ><img src="${portfolioData[4].image2}" class="desktop-only" alt="portfolio-4"
-                /></a>
-
-                </div>
-
-                <div class="col-2">
-                <a href="#"
-                  ><h2>${portfolioData[2].title}</h2></a>
-
-                  
-                <div class="work-details flex2">
-                  <a href="#"><h3>${portfolioData[0].workDetails[0]}</h3></a>
-                  <div class="bullet-point"></div>
-                  <a href=""><h4>${portfolioData[0].workDetails[1]}</h4></a>
-                  <div class="bullet-point"></div>
-                  <a href=""><h4>${portfolioData[0].workDetails[2]}</h4></a>
-                </div>
-
-                <p>
-                    ${portfolioData[0].description}
-                </p>
-                <ul>
-                  <li class="work-tools">
-                     <button type="button" class="tools">${portfolioData[0].workTools[0]}</button>
-                    <button type="button" class="tools">${portfolioData[0].workTools[1]}</button>
-                    <button type="button" class="tools">${portfolioData[0].workTools[2]}</button>
-                  </li>
-                </ul>
-                <div>
-                  <button type="button" class="primary-btn">See Project</button>
-                </div>
-              </div>
-              </div>
-                </div>`;
+    <div class="col-2">
+    <a href="#"><h2>${cardData.title}</h2></a>
+    <div class="work-details flex2">
+      <a href="#"><h3>${cardData.workDetails[0]}</h3></a>
+      <div class="bullet-point"></div>
+      <a href=""><h4>${cardData.workDetails[1]}</h4></a>
+      <div class="bullet-point"></div>
+      <a href=""><h4>${cardData.workDetails[2]}</h4></a>
+    </div>
+    <p>
+      ${cardData.description}
+    </p>
+    <ul>
+      <li class="work-tools">
+        <button type="button" class="tools">${cardData.workTools[0]}</button>
+        <button type="button" class="tools">${cardData.workTools[1]}</button>
+        <button type="button" class="tools">${cardData.workTools[2]}</button>
+      </li>
+    </ul>
+    <div>
+      <button type="button" class="primary-btn" id="${index}">See Project</button>
+    </div>
+  </div>
+  </div>
+</div>`;
+});
 
 // ------------------------- Projects section --------------------//
 
 // ------------------------- Pop-up section --------------------//
 
 const dynamic = document.querySelector('.popup');
-dynamic.innerHTML = `<div class="row">
+function displayPopUp(cardObject) {
+  dynamic.innerHTML = `<div class="row">
                 <div class="right-col work-1">
-                  <a href="#"><h2>${portfolioData[0].title}</h2></a>
+                  <a href="#"><h2>${cardObject.title}</h2></a>
                 <div class="work-details flex2">
-                  <a href="#"><h3>${portfolioData[0].workDetails[0]}</h3></a>
+                  <a href="#"><h3>${cardObject.workDetails[0]}</h3></a>
                   <div class="bullet-point"></div>
-                  <a href=""><h4>${portfolioData[0].workDetails[1]}</h4></a>
+                  <a href=""><h4>${cardObject.workDetails[1]}</h4></a>
                   <div class="bullet-point"></div>
-                  <a href=""><h4>${portfolioData[0].workDetails[2]}</h4></a>
+                  <a href=""><h4>${cardObject.workDetails[2]}</h4></a>
                   
                 </div>
                 <div class='close'>
@@ -311,77 +131,72 @@ dynamic.innerHTML = `<div class="row">
         </div>
                   
                 <a href="#"
-                  ><img src="${portfolioData[1].image}" class="mobile-only" alt="portfolio-1"
+                  ><img src="${cardObject.image}" class="mobile-only" alt="portfolio-1"
                 /></a>
   
                    <a href="#"
-                  ><img src="${portfolioData[0].image}" class="desktop-only" alt="portfolio-1"
+                  ><img src="${cardObject.image2}" class="desktop-only" alt="portfolio-1"
                 /></a>
                 
                 </div>
                 <div class="left-col">
                 <div class="text-side">
                 <p class="desktop-only" >
-                  ${portfolioData[0].details}
+                  ${cardObject.details}
                 </p>
                 <p class="mobile-only" >
-                  ${portfolioData[7].details2}
+                  ${cardObject.details}
                 </p>
                 </div>
                 <div class="links-side">
                 <ul>
                   <li class="work-tools">
-                    <button type="button" class="tools desktop-only"> ${portfolioData[0].workTools[0]}</button>
-                    <button type="button" class="tools desktop-only">${portfolioData[0].workTools[1]}</button>
-                    <button type="button" class="tools desktop-only">${portfolioData[0].workTools[2]}</button>
-                    <button type="button" class="tools desktop-only">${portfolioData[0].workTools[3]}</button>
-                    <button type="button" class="tools desktop-only">${portfolioData[0].workTools[4]}</button>
-                    <button type="button" class="tools desktop-only">${portfolioData[0].workTools[5]}</button>
-                    <button type="button" class="tools mobile-only">${portfolioData[0].workTools[0]}</button>
-                    <button type="button" class="tools mobile-only">${portfolioData[0].workTools[1]}</button>
-                    <button type="button" class="tools mobile-only">${portfolioData[0].workTools[2]}</button>
+                    <button type="button" class="tools desktop-only"> ${cardObject.workTools[0]}</button>
+                    <button type="button" class="tools desktop-only">${cardObject.workTools[1]}</button>
+                    <button type="button" class="tools desktop-only">${cardObject.workTools[2]}</button>
+                    <button type="button" class="tools desktop-only">${cardObject.workTools[3]}</button>
+                    <button type="button" class="tools desktop-only">${cardObject.workTools[4]}</button>
+                    <button type="button" class="tools desktop-only">${cardObject.workTools[5]}</button>
+                    <button type="button" class="tools mobile-only">${cardObject.workTools[0]}</button>
+                    <button type="button" class="tools mobile-only">${cardObject.workTools[1]}</button>
+                    <button type="button" class="tools mobile-only">${cardObject.workTools[2]}</button>
                   </li>
                 </ul>
                <div class='live-btn'>
                   <div class= "btn-1">
                   <button type="button" class="pop-btn">
-                    <a href="${portfolioData[7].liveLink}" target="_blank">See Live</a>
-                    <span><img src="${portfolioData[7].liveIcon}" alt='live'>
+                    <a href="#" target="_blank">See Live</a>
+                    <span><img src="#" alt='live'>
                   </button>
                 </div>
                   
                   <div class= "btn-2">
                   <button type="button" class="pop-btn">
-                  <a href="${portfolioData[7].sourceLink}" target="_blank">See Source</a>
-                  <span><img src="${portfolioData[7].sourceIcon}" alt='gitHub'>
+                  <a href="#" target="_blank">See Source</a>
+                  <span><img src="./images/bluegithub.svg" alt='gitHub'>
                   </button>
                   </div>
                 </div>
               </div>
               </div>
               </div>`;
-
-const overlay = document.querySelector('.back-pop');
-function popDisplay() {
   dynamic.style.display = 'block';
+  const overlay = document.querySelector('.back-pop');
   overlay.style.display = 'flex';
+  const popup = document.querySelector('.popup');
+  const closeModal = document.querySelector('.x-icon');
+  closeModal.addEventListener('click', () => {
+    popup.style.display = 'none';
+    overlay.style.display = 'none';
+  });
 }
 
 const display = document.querySelectorAll('.primary-btn');
-Array.from(display).forEach((element) => {
-  element.addEventListener('click', popDisplay);
+Array.from(display).forEach((element, index) => {
+  element.addEventListener('click', () => {
+    displayPopUp(portfolioData[index]);
+  });
 });
-
-const closeModal = document.querySelector('.x-icon');
-
-const popup = document.querySelector('.popup');
-
-function closePopup() {
-  popup.style.display = 'none';
-  overlay.style.display = 'none';
-}
-
-closeModal.addEventListener('click', closePopup);
 
 // ------------------------- Pop-up section ends --------------------//
 
@@ -418,6 +233,8 @@ contactForm.addEventListener('input', () => {
 });
 
 const GetDataFromLocalStorage = JSON.parse(localStorage.getItem('userData'));
-Name.value = GetDataFromLocalStorage.username;
-Email.value = GetDataFromLocalStorage.email;
-Message.value = GetDataFromLocalStorage.message;
+if (GetDataFromLocalStorage) {
+  Name.value = GetDataFromLocalStorage.username;
+  Email.value = GetDataFromLocalStorage.email;
+  Message.value = GetDataFromLocalStorage.message;
+}
